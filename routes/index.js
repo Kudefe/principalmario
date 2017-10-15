@@ -6,7 +6,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Dev Say' });
+  res.render('index', { title: 'Dev Say: Game Developer Stories' });
 });
 
 
